@@ -1,7 +1,7 @@
 <?php
 require 'db.php';
 
-// Check if ID exists
+// Check if ID is provided
 if (!isset($_GET['id'])) {
     die("No ID specified.");
 }
